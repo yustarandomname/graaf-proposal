@@ -1,0 +1,28 @@
+
+// Main layout
+$content-width: 1200px;
+$topper-height: 50px;
+$gutter-width: 100px;
+$footer-height: 100px;
+
+// Box styling
+$icon-size: 1.2rem;
+$border-radius: 6px;
+$box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+
+$card-thin-padding: 1rem;
+$card-thick-padding: 1.5rem;
+
+$input-thin-padding: 0.75rem;
+$input-thick-padding: 1rem;
+
+// Form styling
+$form-grid-columns: 2fr 5fr;
+
+$small-form-gap: 0.5rem;
+$medium-form-gap: 1rem;
+$large-form-gap: 1.5rem;
+
+// Animation
+$anim-duration: 120ms;
+$anim-easing: cubic-bezier(0.445, 0.050, 0.550, 0.950);

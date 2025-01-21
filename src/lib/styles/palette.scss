@@ -1,0 +1,18 @@
+
+$white: #FFFFFF;
+$light-gray: #E9ECF5;
+$gray: #CBCBCD;
+$dark-gray: #71716F;
+$black: #22211B;
+
+$light-purple: #6B397A;
+$purple: #50255D;
+$dark-purple: #34113F;
+$highlight: #2D82B7;
+
+$white-filter: brightness(0) saturate(100%) invert(100%) sepia(87%) saturate(2%) hue-rotate(289deg) brightness(121%) contrast(100%);
+$light-gray-filter: brightness(0) saturate(100%) invert(98%) sepia(2%) saturate(2968%) hue-rotate(184deg) brightness(94%) contrast(104%);
+$black-filter: brightness(0) saturate(100%) invert(8%) sepia(37%) saturate(303%) hue-rotate(14deg) brightness(95%) contrast(89%);
+
+$purple-filter: brightness(0) saturate(100%) invert(17%) sepia(10%) saturate(6768%) hue-rotate(253deg) brightness(92%) contrast(92%);
+$dark-purple-filter: brightness(0) saturate(100%) invert(13%) sepia(14%) saturate(3773%) hue-rotate(247deg) brightness(94%) contrast(107%);
