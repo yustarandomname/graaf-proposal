@@ -9,7 +9,7 @@
 	import { buttonVariants, type ButtonVariant } from './ui/button';
 
 	type Props = {
-		icon: 'plus' | 'ellipsis';
+		icon?: 'plus' | 'ellipsis';
 		open: boolean;
 		button?: string;
 		title: string;
@@ -18,7 +18,7 @@
 		onclick?: () => void;
 		children: Snippet;
 		variant?: ButtonVariant;
-		class: string;
+		class?: string;
 	};
 
 	let {
@@ -44,7 +44,11 @@
 			classes
 		)}
 		{disabled}
-		{onclick}
+		onclick={(e) => {
+			e.stopPropagation();
+			console.log('clicked');
+			onclick();
+		}}
 	>
 		{#if icon == 'plus'}
 			<Plus class="size-5" />
